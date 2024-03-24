@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 import Home from './Page/Home'
+import Admin from './Page/Admin'
 
 function App() {
 
@@ -7,7 +8,7 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/admin" component={Admin} /> */}
+        <Route path="/Admin" element={<Admin />} />
       </Routes>
     </>
   )
